@@ -10,7 +10,17 @@ function handleOnBlur(){
 
 function EyesOnMe(){
     return <div>
-        <button onFocus={handleOnFocus} onBlur={handleOnBlur}>Eyes on me</button>
+        <button 
+            onFocus={handleOnFocus} 
+            onBlur={handleOnBlur}
+            style={{
+                // backgroundColor: handleOnFocus? "antiquewhite":"blue"
+                height:25,
+                borderRadius:5
+            }}
+        >
+            Eyes on me
+        </button>
     </div>
 }
 

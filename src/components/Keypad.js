@@ -7,7 +7,7 @@ function handleChange(){
 function Keypad (){
     return (
         <div>
-            <input type="password" onChange={handleChange} />
+            <input style={{height:25, marginBottom:10}} type="password" onChange={handleChange} />
         </div>
     )
 }
